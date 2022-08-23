@@ -1,0 +1,107 @@
+.modal-content {
+  border-radius: 10px;
+  border: 5px solid green;
+  
+  position: relative;
+  background-color: #ededed;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+.close{
+      position: absolute;
+    right: 5px;
+    top: 1px;
+    opacity: .3;
+    z-index: 2;
+    font-size: 28px;
+}
+.modal-header {
+  font-family: 'Publico Banner Roman';
+  color: black;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+}
+.inputcontent{
+
+    padding: 1px 10px 1px 35px;
+    /* border: 1px solid #b2b4b6; */
+    position: relative;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.inputcontent .form-control {
+    line-height: 34px;
+    height: 34px;
+    font-size: .9em;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: #919193;
+
+}
+.forgotpass{
+  line-height: 25px;
+    font-size: .8em;
+    color: #414042;
+    text-align: left;
+    
+}
+.forgotpass:hover{
+  background-color: transparent;
+  text-decoration-color: #ffcf01;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #ededed;
+  color: black;
+  text-align: center;
+  margin: auto;
+}
+.modal-footer p a{
+  color: black;
+ text-decoration: none;
+  text-decoration-color:none;
+}
+.modal-footer a:hover{
+  background-color: transparent;
+  text-decoration-color: #ffcf01;
+}
+.btnsignin {
+    display: block;
+    margin: 20px auto 10px;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    font-size: .8em;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border: 0;
+    /* font-family: 'Roboto-Bold'; */
+}
+.btnsignin:hover {
+    background-color: #f3f3f3;
+}
