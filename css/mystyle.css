@@ -131,7 +131,7 @@ text-decoration: none;
     padding-bottom: 70px;
     background: url("../images/bg-strength.jpg");
     background-size: cover;
-    no-repeat center;
+    
     padding-top: 0px;
 
 }
@@ -311,7 +311,7 @@ text-decoration: none;
 .hmdirConDesc p{font-size:1.2em;}
 .hmdirConDesc p i{font-size:0.9em;}
 .hmdirAuthor h3{
-    fon-size:2em;
+    font-size:2em;
     color:#231f20;
 
 }
@@ -319,7 +319,7 @@ text-decoration: none;
 /*hmjoinhabd*/
 .hmjoinhabd{
     background-image: url("../images/6.jpg");
-    no-repeat left bottom;
+    
     background-size: cover;
 }
 .hmjoinhabd > .row{
@@ -414,13 +414,13 @@ text-decoration: none;}
     left: 0;
 }
 
-}
+
 .footer .address p{
     padding-left: 21px;
     position: relative;
 }
 
-}
+
 .footer .address p .fas {
     color: #ffcf01;
 }
